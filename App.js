@@ -9,6 +9,9 @@
 import React, {Component} from 'react';
 import {StyleSheet, Text, View} from 'react-native';
 
+import MenuUtama from './Components/MenuUtama'
+import MenuGame from './Components/MenuGame'
+import MenuBerita from './Components/MenuBerita'
 
 Header = () => {
 
@@ -37,6 +40,10 @@ export default class App extends Component<Props> {
     return (
       <View>
         <Header/>
+        <MenuUtama/>
+        <MenuGame/>
+        <MenuBerita/>
+        <Footer/>
       </View>
     );
   }
