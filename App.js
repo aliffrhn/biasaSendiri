@@ -7,7 +7,7 @@
  */
 
 import React, {Component} from 'react';
-import {StyleSheet, Text, View} from 'react-native';
+import {Text, View} from 'react-native';
 
 import MenuUtama from './Components/MenuUtama'
 import MenuGame from './Components/MenuGame'
